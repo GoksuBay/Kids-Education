@@ -7,6 +7,10 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="Panel" parent="." instance=ExtResource( 1 )]
+margin_left = -4.09076
+margin_top = -1.85068
+margin_right = 1275.91
+margin_bottom = 718.149
 
 [node name="Button" type="Button" parent="Panel"]
 margin_left = 569.836
@@ -27,17 +31,17 @@ margin_right = 190.854
 margin_bottom = 703.974
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_left = 509.317
-margin_top = 319.634
-margin_right = 780.317
-margin_bottom = 359.634
+margin_left = 467.0
+margin_top = 303.0
+margin_right = 788.0
+margin_bottom = 356.0
 visible_characters = 1
 
 [node name="TextEdit-metin yazma yeri" type="TextEdit" parent="RichTextLabel"]
-margin_left = -13.0
-margin_top = -6.0
-margin_right = 280.0
-margin_bottom = 51.0
+margin_left = 34.0
+margin_top = 2.0
+margin_right = 322.0
+margin_bottom = 54.0
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="."]
 margin_left = 426.754
