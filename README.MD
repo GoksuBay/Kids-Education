@@ -1,0 +1,1 @@
+Projeye başlamadan önce git fetch , git pull yapmayı sakın unutmayıni projeiniz TAMAMLADIKTAN sonra git commit ve git push yapmayı unutmayın

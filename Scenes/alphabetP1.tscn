@@ -1,0 +1,173 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = -3.02289
+margin_top = 0.57592
+margin_right = 1276.98
+margin_bottom = 720.576
+
+[node name="a" type="Button" parent="Panel"]
+margin_left = 104.351
+margin_top = 116.379
+margin_right = 204.351
+margin_bottom = 216.379
+
+[node name="b" type="Button" parent="Panel"]
+margin_left = 254.351
+margin_top = 115.224
+margin_right = 354.351
+margin_bottom = 215.224
+
+[node name="c" type="Button" parent="Panel"]
+margin_left = 404.351
+margin_top = 115.386
+margin_right = 504.351
+margin_bottom = 215.386
+
+[node name="d" type="Button" parent="Panel"]
+margin_left = 564.351
+margin_top = 114.437
+margin_right = 664.351
+margin_bottom = 214.437
+
+[node name="e" type="Button" parent="Panel"]
+margin_left = 726.616
+margin_top = 113.988
+margin_right = 826.616
+margin_bottom = 213.988
+
+[node name="f" type="Button" parent="Panel"]
+margin_left = 871.671
+margin_top = 113.462
+margin_right = 971.671
+margin_bottom = 213.462
+
+[node name="g" type="Button" parent="Panel"]
+margin_left = 1023.75
+margin_top = 113.905
+margin_right = 1123.75
+margin_bottom = 213.905
+
+[node name="h" type="Button" parent="Panel"]
+margin_left = 101.897
+margin_top = 263.564
+margin_right = 201.897
+margin_bottom = 363.564
+
+[node name="k" type="Button" parent="Panel"]
+margin_left = 575.906
+margin_top = 262.584
+margin_right = 675.906
+margin_bottom = 362.584
+
+[node name="j" type="Button" parent="Panel"]
+margin_left = 422.437
+margin_top = 263.276
+margin_right = 522.437
+margin_bottom = 363.276
+
+[node name="i" type="Button" parent="Panel"]
+margin_left = 258.567
+margin_top = 263.414
+margin_right = 358.567
+margin_bottom = 363.414
+
+[node name="N" type="Button" parent="Panel"]
+margin_left = 1026.28
+margin_top = 263.312
+margin_right = 1126.28
+margin_bottom = 363.312
+
+[node name="L" type="Button" parent="Panel"]
+margin_left = 725.141
+margin_top = 264.326
+margin_right = 825.141
+margin_bottom = 364.326
+
+[node name="M" type="Button" parent="Panel"]
+margin_left = 873.697
+margin_top = 264.855
+margin_right = 973.697
+margin_bottom = 364.855
+
+[node name="r" type="Button" parent="Panel"]
+margin_left = 656.355
+margin_top = 410.119
+margin_right = 756.355
+margin_bottom = 510.119
+
+[node name="s" type="Button" parent="Panel"]
+margin_left = 819.207
+margin_top = 407.618
+margin_right = 919.207
+margin_bottom = 507.618
+
+[node name="t" type="Button" parent="Panel"]
+margin_left = 970.921
+margin_top = 408.172
+margin_right = 1070.92
+margin_bottom = 508.172
+
+[node name="q" type="Button" parent="Panel"]
+margin_left = 496.566
+margin_top = 408.243
+margin_right = 596.566
+margin_bottom = 508.243
+
+[node name="P" type="Button" parent="Panel"]
+margin_left = 336.32
+margin_top = 408.159
+margin_right = 436.32
+margin_bottom = 508.159
+
+[node name="O" type="Button" parent="Panel"]
+margin_left = 179.086
+margin_top = 408.964
+margin_right = 279.086
+margin_bottom = 508.964
+
+[node name="u" type="Button" parent="Panel"]
+margin_left = 188.198
+margin_top = 552.005
+margin_right = 288.198
+margin_bottom = 652.005
+
+[node name="v" type="Button" parent="Panel"]
+margin_left = 341.597
+margin_top = 554.177
+margin_right = 441.597
+margin_bottom = 654.177
+
+[node name="w" type="Button" parent="Panel"]
+margin_left = 500.663
+margin_top = 554.136
+margin_right = 600.663
+margin_bottom = 654.136
+
+[node name="y" type="Button" parent="Panel"]
+margin_left = 818.078
+margin_top = 553.65
+margin_right = 918.078
+margin_bottom = 653.65
+
+[node name="x" type="Button" parent="Panel"]
+margin_left = 659.533
+margin_top = 553.897
+margin_right = 759.533
+margin_bottom = 653.897
+
+[node name="z" type="Button" parent="Panel"]
+margin_left = 970.172
+margin_top = 554.531
+margin_right = 1070.17
+margin_bottom = 654.531
+
+[node name="exit" type="Button" parent="Panel"]
+margin_left = 1178.01
+margin_top = 35.719
+margin_right = 1253.01
+margin_bottom = 110.719
