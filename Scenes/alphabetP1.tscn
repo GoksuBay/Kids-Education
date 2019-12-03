@@ -1,173 +1,181 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 
-[node name="Panel" type="Panel" parent="."]
-margin_left = -3.02289
-margin_top = 0.57592
-margin_right = 1276.98
-margin_bottom = 720.576
+[node name="Panel2" parent="." instance=ExtResource( 1 )]
+margin_left = -4.20483
+margin_top = 4.20483
+margin_right = 1275.8
+margin_bottom = 724.205
 
-[node name="a" type="Button" parent="Panel"]
-margin_left = 104.351
-margin_top = 116.379
-margin_right = 204.351
-margin_bottom = 216.379
+[node name="a" type="Button" parent="Panel2"]
+margin_left = 105.645
+margin_top = 60.8347
+margin_right = 205.645
+margin_bottom = 160.835
 
-[node name="b" type="Button" parent="Panel"]
-margin_left = 254.351
-margin_top = 115.224
-margin_right = 354.351
-margin_bottom = 215.224
+[node name="b" type="Button" parent="Panel2"]
+margin_left = 255.645
+margin_top = 59.6797
+margin_right = 355.645
+margin_bottom = 159.68
 
-[node name="c" type="Button" parent="Panel"]
-margin_left = 404.351
-margin_top = 115.386
-margin_right = 504.351
-margin_bottom = 215.386
+[node name="c" type="Button" parent="Panel2"]
+margin_left = 405.645
+margin_top = 59.8417
+margin_right = 505.645
+margin_bottom = 159.842
 
-[node name="d" type="Button" parent="Panel"]
-margin_left = 564.351
-margin_top = 114.437
-margin_right = 664.351
-margin_bottom = 214.437
+[node name="d" type="Button" parent="Panel2"]
+margin_left = 565.645
+margin_top = 58.8927
+margin_right = 665.645
+margin_bottom = 158.893
 
-[node name="e" type="Button" parent="Panel"]
-margin_left = 726.616
-margin_top = 113.988
-margin_right = 826.616
-margin_bottom = 213.988
+[node name="e" type="Button" parent="Panel2"]
+margin_left = 727.91
+margin_top = 58.4437
+margin_right = 827.91
+margin_bottom = 158.444
 
-[node name="f" type="Button" parent="Panel"]
-margin_left = 871.671
-margin_top = 113.462
-margin_right = 971.671
-margin_bottom = 213.462
+[node name="f" type="Button" parent="Panel2"]
+margin_left = 872.965
+margin_top = 57.9177
+margin_right = 972.965
+margin_bottom = 157.918
 
-[node name="g" type="Button" parent="Panel"]
-margin_left = 1023.75
-margin_top = 113.905
-margin_right = 1123.75
-margin_bottom = 213.905
+[node name="g" type="Button" parent="Panel2"]
+margin_left = 1025.04
+margin_top = 58.3607
+margin_right = 1125.04
+margin_bottom = 158.361
 
-[node name="h" type="Button" parent="Panel"]
-margin_left = 101.897
-margin_top = 263.564
-margin_right = 201.897
-margin_bottom = 363.564
+[node name="h" type="Button" parent="Panel2"]
+margin_left = 103.191
+margin_top = 208.02
+margin_right = 203.191
+margin_bottom = 308.02
 
-[node name="k" type="Button" parent="Panel"]
-margin_left = 575.906
-margin_top = 262.584
-margin_right = 675.906
-margin_bottom = 362.584
+[node name="k" type="Button" parent="Panel2"]
+margin_left = 577.2
+margin_top = 207.04
+margin_right = 677.2
+margin_bottom = 307.04
 
-[node name="j" type="Button" parent="Panel"]
-margin_left = 422.437
-margin_top = 263.276
-margin_right = 522.437
-margin_bottom = 363.276
+[node name="j" type="Button" parent="Panel2"]
+margin_left = 423.731
+margin_top = 207.732
+margin_right = 523.731
+margin_bottom = 307.732
 
-[node name="i" type="Button" parent="Panel"]
-margin_left = 258.567
-margin_top = 263.414
-margin_right = 358.567
-margin_bottom = 363.414
+[node name="i" type="Button" parent="Panel2"]
+margin_left = 259.861
+margin_top = 207.87
+margin_right = 359.861
+margin_bottom = 307.87
 
-[node name="N" type="Button" parent="Panel"]
-margin_left = 1026.28
-margin_top = 263.312
-margin_right = 1126.28
-margin_bottom = 363.312
+[node name="N" type="Button" parent="Panel2"]
+margin_left = 1027.57
+margin_top = 207.768
+margin_right = 1127.57
+margin_bottom = 307.768
 
-[node name="L" type="Button" parent="Panel"]
-margin_left = 725.141
-margin_top = 264.326
-margin_right = 825.141
-margin_bottom = 364.326
+[node name="L" type="Button" parent="Panel2"]
+margin_left = 726.435
+margin_top = 208.782
+margin_right = 826.435
+margin_bottom = 308.782
 
-[node name="M" type="Button" parent="Panel"]
-margin_left = 873.697
-margin_top = 264.855
-margin_right = 973.697
-margin_bottom = 364.855
+[node name="M" type="Button" parent="Panel2"]
+margin_left = 874.991
+margin_top = 209.311
+margin_right = 974.991
+margin_bottom = 309.311
 
-[node name="r" type="Button" parent="Panel"]
-margin_left = 656.355
-margin_top = 410.119
-margin_right = 756.355
-margin_bottom = 510.119
+[node name="r" type="Button" parent="Panel2"]
+margin_left = 657.649
+margin_top = 354.575
+margin_right = 757.649
+margin_bottom = 454.575
 
-[node name="s" type="Button" parent="Panel"]
-margin_left = 819.207
-margin_top = 407.618
-margin_right = 919.207
-margin_bottom = 507.618
+[node name="s" type="Button" parent="Panel2"]
+margin_left = 820.501
+margin_top = 352.074
+margin_right = 920.501
+margin_bottom = 452.074
 
-[node name="t" type="Button" parent="Panel"]
-margin_left = 970.921
-margin_top = 408.172
-margin_right = 1070.92
-margin_bottom = 508.172
+[node name="t" type="Button" parent="Panel2"]
+margin_left = 972.215
+margin_top = 352.628
+margin_right = 1072.21
+margin_bottom = 452.628
 
-[node name="q" type="Button" parent="Panel"]
-margin_left = 496.566
-margin_top = 408.243
-margin_right = 596.566
-margin_bottom = 508.243
+[node name="q" type="Button" parent="Panel2"]
+margin_left = 497.86
+margin_top = 352.699
+margin_right = 597.86
+margin_bottom = 452.699
 
-[node name="P" type="Button" parent="Panel"]
-margin_left = 336.32
-margin_top = 408.159
-margin_right = 436.32
-margin_bottom = 508.159
+[node name="P" type="Button" parent="Panel2"]
+margin_left = 337.614
+margin_top = 352.615
+margin_right = 437.614
+margin_bottom = 452.615
 
-[node name="O" type="Button" parent="Panel"]
-margin_left = 179.086
-margin_top = 408.964
-margin_right = 279.086
-margin_bottom = 508.964
+[node name="O" type="Button" parent="Panel2"]
+margin_left = 180.38
+margin_top = 353.42
+margin_right = 280.38
+margin_bottom = 453.42
 
-[node name="u" type="Button" parent="Panel"]
-margin_left = 188.198
-margin_top = 552.005
-margin_right = 288.198
-margin_bottom = 652.005
+[node name="u" type="Button" parent="Panel2"]
+margin_left = 189.492
+margin_top = 496.461
+margin_right = 289.492
+margin_bottom = 596.461
 
-[node name="v" type="Button" parent="Panel"]
-margin_left = 341.597
-margin_top = 554.177
-margin_right = 441.597
-margin_bottom = 654.177
+[node name="v" type="Button" parent="Panel2"]
+margin_left = 342.891
+margin_top = 498.633
+margin_right = 442.891
+margin_bottom = 598.633
 
-[node name="w" type="Button" parent="Panel"]
-margin_left = 500.663
-margin_top = 554.136
-margin_right = 600.663
-margin_bottom = 654.136
+[node name="w" type="Button" parent="Panel2"]
+margin_left = 501.957
+margin_top = 498.592
+margin_right = 601.957
+margin_bottom = 598.592
 
-[node name="y" type="Button" parent="Panel"]
-margin_left = 818.078
-margin_top = 553.65
-margin_right = 918.078
-margin_bottom = 653.65
+[node name="y" type="Button" parent="Panel2"]
+margin_left = 819.372
+margin_top = 498.106
+margin_right = 919.372
+margin_bottom = 598.106
 
-[node name="x" type="Button" parent="Panel"]
-margin_left = 659.533
-margin_top = 553.897
-margin_right = 759.533
-margin_bottom = 653.897
+[node name="x" type="Button" parent="Panel2"]
+margin_left = 660.827
+margin_top = 498.353
+margin_right = 760.827
+margin_bottom = 598.353
 
-[node name="z" type="Button" parent="Panel"]
-margin_left = 970.172
-margin_top = 554.531
-margin_right = 1070.17
-margin_bottom = 654.531
+[node name="z" type="Button" parent="Panel2"]
+margin_left = 971.466
+margin_top = 498.987
+margin_right = 1071.46
+margin_bottom = 598.987
 
-[node name="exit" type="Button" parent="Panel"]
-margin_left = 1178.01
-margin_top = 35.719
-margin_right = 1253.01
-margin_bottom = 110.719
+[node name="home button" type="Button" parent="Panel2"]
+margin_left = 13.7304
+margin_top = 625.557
+margin_right = 88.7304
+margin_bottom = 700.557
+
+[node name="back button" type="Button" parent="Panel2"]
+margin_left = 107.059
+margin_top = 626.268
+margin_right = 182.059
+margin_bottom = 701.268
