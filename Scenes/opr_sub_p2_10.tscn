@@ -1,0 +1,117 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 2.10526
+margin_top = -2.1952
+margin_right = 1282.11
+margin_bottom = 717.804
+
+[node name="img1" type="Button" parent="Panel"]
+margin_left = 62.632
+margin_top = 120.0
+margin_right = 312.632
+margin_bottom = 370.0
+text = "image1"
+
+[node name="Sprite" type="Sprite" parent="Panel/img1"]
+
+[node name="opr" type="Button" parent="Panel"]
+margin_left = 814.579
+margin_top = 200.0
+margin_right = 894.579
+margin_bottom = 280.0
+text = "equals"
+
+[node name="Sprite" type="Sprite" parent="Panel/opr"]
+
+[node name="img2" type="Button" parent="Panel"]
+margin_left = 500.0
+margin_top = 120.0
+margin_right = 750.0
+margin_bottom = 370.0
+text = "image2"
+
+[node name="Sprite" type="Sprite" parent="Panel/img2"]
+
+[node name="eql" type="Button" parent="Panel"]
+margin_left = 366.0
+margin_top = 200.0
+margin_right = 446.0
+margin_bottom = 280.0
+text = "sub opr"
+
+[node name="Sprite" type="Sprite" parent="Panel/eql"]
+
+[node name="img3" type="Button" parent="Panel"]
+margin_left = 960.0
+margin_top = 120.0
+margin_right = 1210.0
+margin_bottom = 370.0
+text = "image3"
+
+[node name="Sprite" type="Sprite" parent="Panel/img3"]
+
+[node name="opr2" type="Button" parent="Panel"]
+margin_left = 380.0
+margin_top = 475.0
+margin_right = 430.0
+margin_bottom = 525.0
+text = "opr"
+
+[node name="Sprite" type="Sprite" parent="Panel/opr2"]
+
+[node name="eql2" type="Button" parent="Panel"]
+margin_left = 840.0
+margin_top = 475.0
+margin_right = 890.0
+margin_bottom = 525.0
+text = "eq"
+
+[node name="Sprite" type="Sprite" parent="Panel/eql2"]
+
+[node name="TextEdit1" type="TextEdit" parent="Panel"]
+modulate = Color( 0.988235, 0.980392, 0.980392, 1 )
+margin_left = 107.0
+margin_top = 450.0
+margin_right = 257.0
+margin_bottom = 550.0
+text = "number1
+"
+
+[node name="TextEdit2" type="TextEdit" parent="Panel"]
+margin_left = 550.0
+margin_top = 450.0
+margin_right = 700.0
+margin_bottom = 550.0
+text = "number2
+"
+
+[node name="TextEdit3" type="TextEdit" parent="Panel"]
+margin_left = 1015.0
+margin_top = 450.0
+margin_right = 1165.0
+margin_bottom = 550.0
+text = "text
+"
+
+[node name="level" type="Button" parent="Panel"]
+margin_left = 540.0
+margin_top = 645.0
+margin_right = 690.0
+margin_bottom = 695.0
+text = "1/20"
+
+[node name="Sprite" type="Sprite" parent="Panel/level"]
+
+[node name="Button" type="Button" parent="Panel"]
+margin_left = 1070.0
+margin_top = 600.0
+margin_right = 1250.0
+margin_bottom = 700.0
+text = "numpad"
+
+[node name="Sprite" type="Sprite" parent="Panel/Button"]
