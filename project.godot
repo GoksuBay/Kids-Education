@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Kids Education"
+run/main_scene="res://Scenes/Panel.tscn"
 config/icon="res://Pictures/icon.png"
 
 [display]
