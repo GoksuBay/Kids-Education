@@ -7,13 +7,12 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="Panel" type="Panel" parent="."]
-margin_left = -2.0
+margin_left = -2.00003
 margin_top = 1.85738
 margin_right = 1278.0
 margin_bottom = 721.857
 
 [node name="Panel" parent="Panel" instance=ExtResource( 1 )]
-rect_pivot_offset = Vector2( 562, 658.143 )
 
 [node name="img1" type="Button" parent="Panel"]
 margin_left = 30.0
@@ -26,9 +25,9 @@ text = "image1"
 
 [node name="opr" type="Button" parent="Panel"]
 margin_left = 823.0
-margin_top = 320.0
+margin_top = 321.053
 margin_right = 923.0
-margin_bottom = 421.0
+margin_bottom = 422.053
 text = "equals"
 
 [node name="Sprite" type="Sprite" parent="Panel/opr"]
@@ -47,7 +46,7 @@ margin_left = 363.0
 margin_top = 320.0
 margin_right = 463.0
 margin_bottom = 420.0
-text = "div operator"
+text = "sum operator"
 
 [node name="Sprite" type="Sprite" parent="Panel/eql"]
 
@@ -65,4 +64,4 @@ margin_left = 540.0
 margin_top = 645.0
 margin_right = 690.0
 margin_bottom = 695.0
-text = "1/20"
+text = "7/10"

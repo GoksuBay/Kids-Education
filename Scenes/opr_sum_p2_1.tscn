@@ -46,7 +46,7 @@ margin_left = 366.0
 margin_top = 200.0
 margin_right = 446.0
 margin_bottom = 280.0
-text = "div opr"
+text = "sum opr"
 
 [node name="Sprite" type="Sprite" parent="Panel/eql"]
 

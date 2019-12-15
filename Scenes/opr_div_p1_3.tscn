@@ -61,8 +61,8 @@ text = "image3"
 [node name="Sprite" type="Sprite" parent="Panel/img3"]
 
 [node name="Button" type="Button" parent="Panel"]
-margin_left = 540.0
-margin_top = 645.0
-margin_right = 690.0
-margin_bottom = 695.0
-text = "1/20"
+margin_left = 541.053
+margin_top = 643.947
+margin_right = 691.053
+margin_bottom = 693.947
+text = "3/10"

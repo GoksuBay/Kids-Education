@@ -46,7 +46,7 @@ margin_left = 366.0
 margin_top = 200.0
 margin_right = 446.0
 margin_bottom = 280.0
-text = "div opr"
+text = "mult opr"
 
 [node name="Sprite" type="Sprite" parent="Panel/eql"]
 
@@ -107,7 +107,7 @@ margin_left = 540.0
 margin_top = 645.0
 margin_right = 690.0
 margin_bottom = 695.0
-text = "1/10"
+text = "6/10"
 
 [node name="Sprite" type="Sprite" parent="Panel/level"]
 

@@ -7,13 +7,12 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="Panel" type="Panel" parent="."]
-margin_left = -2.0
+margin_left = 0.105286
 margin_top = 1.85738
-margin_right = 1278.0
+margin_right = 1280.11
 margin_bottom = 721.857
 
 [node name="Panel" parent="Panel" instance=ExtResource( 1 )]
-rect_pivot_offset = Vector2( 562, 658.143 )
 
 [node name="img1" type="Button" parent="Panel"]
 margin_left = 30.0
@@ -47,7 +46,7 @@ margin_left = 363.0
 margin_top = 320.0
 margin_right = 463.0
 margin_bottom = 420.0
-text = "div operator"
+text = "sub operator"
 
 [node name="Sprite" type="Sprite" parent="Panel/eql"]
 
@@ -65,4 +64,4 @@ margin_left = 540.0
 margin_top = 645.0
 margin_right = 690.0
 margin_bottom = 695.0
-text = "1/20"
+text = "4/10"
