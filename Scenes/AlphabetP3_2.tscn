@@ -1,0 +1,56 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" parent="." instance=ExtResource( 1 )]
+margin_left = -4.09076
+margin_top = -1.85068
+margin_right = 1275.91
+margin_bottom = 718.149
+
+[node name="Button" type="Button" parent="Panel"]
+margin_left = 569.836
+margin_top = 107.923
+margin_right = 719.836
+margin_bottom = 257.923
+
+[node name="home button" type="Button" parent="Panel"]
+margin_left = 17.2678
+margin_top = 628.115
+margin_right = 92.2678
+margin_bottom = 703.115
+
+[node name="back button" type="Button" parent="Panel"]
+margin_left = 115.854
+margin_top = 628.974
+margin_right = 190.854
+margin_bottom = 703.974
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 467.0
+margin_top = 303.0
+margin_right = 788.0
+margin_bottom = 356.0
+visible_characters = 1
+
+[node name="TextEdit-metin yazma yeri" type="TextEdit" parent="RichTextLabel"]
+margin_left = 34.0
+margin_top = 2.0
+margin_right = 322.0
+margin_bottom = 54.0
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+margin_left = 426.754
+margin_top = 420.694
+margin_right = 857.754
+margin_bottom = 633.694
+
+[node name="TextEdit-keyboard" type="TextEdit" parent="RichTextLabel2"]
+margin_left = -6.0
+margin_top = -2.0
+margin_right = 428.0
+margin_bottom = 210.0

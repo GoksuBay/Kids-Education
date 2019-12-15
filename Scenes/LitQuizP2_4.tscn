@@ -1,0 +1,51 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" parent="." instance=ExtResource( 1 )]
+margin_left = -1.75812
+margin_top = 1.75809
+margin_right = 1278.24
+margin_bottom = 721.758
+
+[node name="Button" type="Button" parent="Panel"]
+margin_left = 518.968
+margin_top = 56.0
+margin_right = 688.968
+margin_bottom = 208.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+margin_left = 488.748
+margin_top = 249.648
+margin_right = 727.748
+margin_bottom = 293.648
+
+[node name="TextEdit" type="TextEdit" parent="Panel/RichTextLabel"]
+margin_right = 237.0
+margin_bottom = 49.0
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Panel"]
+margin_left = 328.762
+margin_top = 334.037
+margin_right = 894.762
+margin_bottom = 566.037
+
+[node name="TextEdit" type="TextEdit" parent="Panel/RichTextLabel2"]
+margin_right = 567.0
+margin_bottom = 240.0
+
+[node name="home button" type="Button" parent="Panel"]
+margin_left = 15.8228
+margin_top = 627.637
+margin_right = 90.8228
+margin_bottom = 702.637
+
+[node name="back button" type="Button" parent="Panel"]
+margin_left = 105.485
+margin_top = 629.395
+margin_right = 180.485
+margin_bottom = 704.395
