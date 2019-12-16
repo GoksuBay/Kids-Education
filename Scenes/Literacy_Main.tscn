@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Pictures/star-curved-outline-filled.png" type="Texture" id=2]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -13,76 +14,127 @@ margin_left = 1009.61
 margin_top = 85.8228
 margin_right = 1109.61
 margin_bottom = 185.823
+flat = true
+
+[node name="Sprite" type="Sprite" parent="Panel/AlphabetP3"]
+scale = Vector2( 0.379105, 0.379105 )
+texture = ExtResource( 2 )
+centered = false
 
 [node name="SpellinP3" type="Button" parent="Panel"]
 margin_left = 1006.09
 margin_top = 273.938
 margin_right = 1106.09
 margin_bottom = 373.938
+flat = true
+
+[node name="Sprite" type="Sprite" parent="Panel/SpellinP3"]
+scale = Vector2( 0.395887, 0.395887 )
+texture = ExtResource( 2 )
+centered = false
 
 [node name="LitQuizP3" type="Button" parent="Panel"]
 margin_left = 1007.85
 margin_top = 456.779
 margin_right = 1107.85
 margin_bottom = 556.779
+flat = true
+
+[node name="Sprite" type="Sprite" parent="Panel/LitQuizP3"]
+scale = Vector2( 0.384699, 0.384699 )
+texture = ExtResource( 2 )
+centered = false
 
 [node name="AlphabetP2" type="Button" parent="Panel"]
 margin_left = 726.038
 margin_top = 86.1772
 margin_right = 826.038
 margin_bottom = 186.177
+flat = true
+
+[node name="Sprite" type="Sprite" parent="Panel/AlphabetP2"]
+scale = Vector2( 0.384699, 0.384699 )
+texture = ExtResource( 2 )
+centered = false
 
 [node name="SpellingP2" type="Button" parent="Panel"]
 margin_left = 726.038
 margin_top = 272.534
 margin_right = 826.038
 margin_bottom = 372.534
+flat = true
+
+[node name="Sprite" type="Sprite" parent="Panel/SpellingP2"]
+scale = Vector2( 0.390293, 0.390293 )
+texture = ExtResource( 2 )
+centered = false
 
 [node name="LitQuizP2" type="Button" parent="Panel"]
 margin_left = 726.038
 margin_top = 457.134
 margin_right = 826.038
 margin_bottom = 557.134
+flat = true
+
+[node name="Sprite" type="Sprite" parent="Panel/LitQuizP2"]
+scale = Vector2( 0.395886, 0.395886 )
+texture = ExtResource( 2 )
+centered = false
 
 [node name="AlphabetP1" type="Button" parent="Panel"]
 margin_left = 423.439
 margin_top = 89.3544
 margin_right = 523.439
 margin_bottom = 189.354
+flat = true
+
+[node name="Sprite" type="Sprite" parent="Panel/AlphabetP1"]
+scale = Vector2( 0.395886, 0.395886 )
+texture = ExtResource( 2 )
+centered = false
 
 [node name="SpellingP1" type="Button" parent="Panel"]
 margin_left = 423.439
 margin_top = 275.712
 margin_right = 523.439
 margin_bottom = 375.712
+flat = true
+
+[node name="Sprite" type="Sprite" parent="Panel/SpellingP1"]
+scale = Vector2( 0.395886, 0.395886 )
+texture = ExtResource( 2 )
+centered = false
 
 [node name="LitQuizP1" type="Button" parent="Panel"]
 margin_left = 423.439
 margin_top = 458.553
 margin_right = 523.439
 margin_bottom = 558.553
+flat = true
 
-[node name="home button" type="Button" parent="Panel"]
-margin_left = 17.5809
-margin_top = 627.637
-margin_right = 92.5809
-margin_bottom = 702.637
-
-[node name="back button" type="Button" parent="Panel"]
-margin_left = 116.034
-margin_top = 629.395
-margin_right = 191.034
-margin_bottom = 704.395
+[node name="Sprite" type="Sprite" parent="Panel/LitQuizP1"]
+scale = Vector2( 0.384699, 0.384699 )
+texture = ExtResource( 2 )
+centered = false
 
 [node name="alphabet" type="RichTextLabel" parent="Panel"]
-margin_left = 80.872
-margin_top = 105.485
-margin_right = 252.872
-margin_bottom = 154.485
+margin_left = 81.0
+margin_top = 105.0
+margin_right = 306.0
+margin_bottom = 147.0
 
-[node name="TextEdit" type="TextEdit" parent="Panel/alphabet"]
-margin_right = 172.0
-margin_bottom = 54.0
+[node name="Panel" type="Panel" parent="Panel/alphabet"]
+margin_right = 173.0
+margin_bottom = 40.0
+
+[node name="Label" type="Label" parent="Panel/alphabet/Panel"]
+margin_left = 2.45547
+margin_top = -1.22772
+margin_right = 173.455
+margin_bottom = 39.7723
+text = "ALPHABET"
+align = 1
+valign = 1
 
 [node name="spelling" type="RichTextLabel" parent="Panel"]
 margin_left = 82.6301
@@ -90,9 +142,16 @@ margin_top = 300.633
 margin_right = 254.63
 margin_bottom = 349.633
 
-[node name="TextEdit" type="TextEdit" parent="Panel/spelling"]
-margin_right = 174.0
-margin_bottom = 52.0
+[node name="Panel" type="Panel" parent="Panel/spelling"]
+margin_right = 172.0
+margin_bottom = 47.0
+
+[node name="Label" type="Label" parent="Panel/spelling/Panel"]
+margin_right = 170.0
+margin_bottom = 41.0
+text = "SPELLING"
+align = 1
+valign = 1
 
 [node name="quiz" type="RichTextLabel" parent="Panel"]
 margin_left = 84.3882
@@ -100,7 +159,15 @@ margin_top = 485.232
 margin_right = 256.388
 margin_bottom = 534.232
 
-[node name="TextEdit" type="TextEdit" parent="Panel/quiz"]
-margin_top = -1.75809
-margin_right = 174.0
-margin_bottom = 50.2419
+[node name="Panel" type="Panel" parent="Panel/quiz"]
+margin_left = 1.0
+margin_right = 173.0
+margin_bottom = 40.0
+
+[node name="Label" type="Label" parent="Panel/quiz/Panel"]
+margin_right = 166.0
+margin_bottom = 38.0
+text = "Quiz"
+align = 1
+valign = 1
+uppercase = true

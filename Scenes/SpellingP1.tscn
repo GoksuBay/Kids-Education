@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Pictures/apple.jpg" type="Texture" id=2]
+[ext_resource path="res://Pictures/appleyazı.png" type="Texture" id=3]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Yeni Animasyon"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -0.00190353, 0.90353 ), Vector2( 1, 1 ), Vector2( 0.951765, 0.90353 ) ]
+}
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" parent="." instance=ExtResource( 1 )]
+margin_left = -1.52588e-005
+margin_top = 1.75809
+margin_bottom = 721.758
+
+[node name="picture" type="Button" parent="Panel"]
+margin_left = 512.79
+margin_top = 151.371
+margin_right = 745.79
+margin_bottom = 338.371
+
+[node name="Sprite" type="Sprite" parent="Panel/picture"]
+scale = Vector2( 0.778923, 0.628189 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Sprite2" type="Sprite" parent="Panel"]
+position = Vector2( 652.678, 459.739 )
+scale = Vector2( 0.951765, 0.90353 )
+texture = ExtResource( 3 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Panel/Sprite2"]
+autoplay = "Yeni Animasyon"
+"anims/Yeni Animasyon" = SubResource( 1 )
