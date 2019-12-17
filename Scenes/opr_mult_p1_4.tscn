@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Pictures/apples/3.jpg" type="Texture" id=2]
+[ext_resource path="res://Pictures/equal.jpg" type="Texture" id=3]
+[ext_resource path="res://Pictures/MultSign.png" type="Texture" id=4]
+[ext_resource path="res://Pictures/apples/9.jpg" type="Texture" id=5]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -22,6 +26,9 @@ margin_bottom = 520.0
 text = "image1"
 
 [node name="Sprite" type="Sprite" parent="Panel/img1"]
+position = Vector2( 151.151, 150.316 )
+scale = Vector2( 0.701615, 1.76184 )
+texture = ExtResource( 2 )
 
 [node name="opr" type="Button" parent="Panel"]
 margin_left = 823.0
@@ -31,6 +38,9 @@ margin_bottom = 421.0
 text = "equals"
 
 [node name="Sprite" type="Sprite" parent="Panel/opr"]
+position = Vector2( 51.7751, 52.6109 )
+scale = Vector2( 0.0869685, 0.0620618 )
+texture = ExtResource( 3 )
 
 [node name="img2" type="Button" parent="Panel"]
 margin_left = 494.0
@@ -40,6 +50,9 @@ margin_bottom = 520.0
 text = "image2"
 
 [node name="Sprite" type="Sprite" parent="Panel/img2"]
+position = Vector2( 150.316, 149.481 )
+scale = Vector2( 0.69774, 1.75207 )
+texture = ExtResource( 2 )
 
 [node name="eql" type="Button" parent="Panel"]
 margin_left = 363.0
@@ -49,15 +62,21 @@ margin_bottom = 420.0
 text = "mult operator"
 
 [node name="Sprite" type="Sprite" parent="Panel/eql"]
+position = Vector2( 51.7756, 50.9405 )
+scale = Vector2( 0.465543, 0.458119 )
+texture = ExtResource( 4 )
 
 [node name="img3" type="Button" parent="Panel"]
 margin_left = 948.0
-margin_top = 220.0
+margin_top = 222.0
 margin_right = 1248.0
-margin_bottom = 520.0
+margin_bottom = 522.0
 text = "image3"
 
 [node name="Sprite" type="Sprite" parent="Panel/img3"]
+position = Vector2( 149.481, 151.151 )
+scale = Vector2( 0.707328, 0.546408 )
+texture = ExtResource( 5 )
 
 [node name="Button" type="Button" parent="Panel"]
 margin_left = 540.0
