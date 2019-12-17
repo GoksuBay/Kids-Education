@@ -1,6 +1,11 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Pictures/apples/6.jpg" type="Texture" id=2]
+[ext_resource path="res://Pictures/equal.jpg" type="Texture" id=3]
+[ext_resource path="res://Pictures/apples/2.png" type="Texture" id=4]
+[ext_resource path="res://Pictures/divSign.jpg" type="Texture" id=5]
+[ext_resource path="res://Pictures/apples/3.jpg" type="Texture" id=6]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -23,6 +28,9 @@ margin_bottom = 520.0
 text = "image1"
 
 [node name="Sprite" type="Sprite" parent="Panel/img1"]
+position = Vector2( 149.481, 152.822 )
+scale = Vector2( 0.326482, 0.266714 )
+texture = ExtResource( 2 )
 
 [node name="opr" type="Button" parent="Panel"]
 margin_left = 823.0
@@ -32,6 +40,9 @@ margin_bottom = 421.0
 text = "equals"
 
 [node name="Sprite" type="Sprite" parent="Panel/opr"]
+position = Vector2( 52.6115, 50.105 )
+scale = Vector2( 0.0883601, 0.0630457 )
+texture = ExtResource( 3 )
 
 [node name="img2" type="Button" parent="Panel"]
 margin_left = 494.0
@@ -41,6 +52,9 @@ margin_bottom = 520.0
 text = "image2"
 
 [node name="Sprite" type="Sprite" parent="Panel/img2"]
+position = Vector2( 150.316, 151.151 )
+scale = Vector2( 1.34146, 1.33404 )
+texture = ExtResource( 4 )
 
 [node name="eql" type="Button" parent="Panel"]
 margin_left = 363.0
@@ -50,6 +64,9 @@ margin_bottom = 420.0
 text = "div operator"
 
 [node name="Sprite" type="Sprite" parent="Panel/eql"]
+position = Vector2( 51.7754, 50.9404 )
+scale = Vector2( 0.162259, 0.16491 )
+texture = ExtResource( 5 )
 
 [node name="img3" type="Button" parent="Panel"]
 margin_left = 948.0
@@ -59,6 +76,9 @@ margin_bottom = 520.0
 text = "image3"
 
 [node name="Sprite" type="Sprite" parent="Panel/img3"]
+position = Vector2( 149.481, 151.151 )
+scale = Vector2( 0.701615, 1.7716 )
+texture = ExtResource( 6 )
 
 [node name="Button" type="Button" parent="Panel"]
 margin_left = 541.053
