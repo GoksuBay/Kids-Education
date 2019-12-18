@@ -1,6 +1,11 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Pictures/Apples2/12.jpeg" type="Texture" id=2]
+[ext_resource path="res://Pictures/equal.jpg" type="Texture" id=3]
+[ext_resource path="res://Pictures/Apples2/18.jpeg" type="Texture" id=4]
+[ext_resource path="res://Pictures/PLUSSSS.jpg" type="Texture" id=5]
+[ext_resource path="res://Pictures/Apples3/40.jpeg" type="Texture" id=6]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -22,6 +27,9 @@ margin_bottom = 520.0
 text = "image1"
 
 [node name="Sprite" type="Sprite" parent="Panel/img1"]
+position = Vector2( 151.527, 149.147 )
+scale = Vector2( 0.547078, 1.07933 )
+texture = ExtResource( 2 )
 
 [node name="opr" type="Button" parent="Panel"]
 margin_left = 823.0
@@ -31,6 +39,9 @@ margin_bottom = 422.053
 text = "equals"
 
 [node name="Sprite" type="Sprite" parent="Panel/opr"]
+position = Vector2( 50.2881, 49.3643 )
+scale = Vector2( 0.083649, 0.0622713 )
+texture = ExtResource( 3 )
 
 [node name="img2" type="Button" parent="Panel"]
 margin_left = 494.0
@@ -40,15 +51,21 @@ margin_bottom = 520.0
 text = "image2"
 
 [node name="Sprite" type="Sprite" parent="Panel/img2"]
+position = Vector2( 151.527, 149.147 )
+scale = Vector2( 0.547078, 1.09067 )
+texture = ExtResource( 4 )
 
 [node name="eql" type="Button" parent="Panel"]
-margin_left = 363.0
+margin_left = 361.413
 margin_top = 320.0
-margin_right = 463.0
+margin_right = 461.413
 margin_bottom = 420.0
 text = "sum operator"
 
 [node name="Sprite" type="Sprite" parent="Panel/eql"]
+position = Vector2( 50.7735, 49.1869 )
+scale = Vector2( 0.206665, 0.200318 )
+texture = ExtResource( 5 )
 
 [node name="img3" type="Button" parent="Panel"]
 margin_left = 948.0
@@ -58,6 +75,9 @@ margin_bottom = 520.0
 text = "image3"
 
 [node name="Sprite" type="Sprite" parent="Panel/img3"]
+position = Vector2( 150.734, 149.147 )
+scale = Vector2( 0.29241, 1.07933 )
+texture = ExtResource( 6 )
 
 [node name="Button" type="Button" parent="Panel"]
 margin_left = 540.0
