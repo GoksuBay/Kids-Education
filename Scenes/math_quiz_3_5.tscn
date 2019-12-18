@@ -1,6 +1,11 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Pictures/Apples2/10.jpeg" type="Texture" id=2]
+[ext_resource path="res://Pictures/apples/9.jpg" type="Texture" id=3]
+[ext_resource path="res://Pictures/MultSign.png" type="Texture" id=4]
+[ext_resource path="res://Pictures/Apples2/19.jpeg" type="Texture" id=5]
+[ext_resource path="res://Pictures/Apples3/90.jpeg" type="Texture" id=6]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -12,6 +17,8 @@ margin_right = 1280.0
 margin_bottom = 720.857
 
 [node name="Panel" parent="Panel" instance=ExtResource( 1 )]
+margin_left = -1.05261
+margin_right = 1278.95
 
 [node name="1_3" type="Button" parent="Panel"]
 margin_left = 200.0
@@ -20,6 +27,11 @@ margin_right = 450.0
 margin_bottom = 350.0
 text = "num 1"
 
+[node name="Sprite" type="Sprite" parent="Panel/1_3"]
+position = Vector2( 125.263, 124.737 )
+scale = Vector2( 0.880552, 0.890977 )
+texture = ExtResource( 2 )
+
 [node name="2_3" type="Button" parent="Panel"]
 margin_left = 730.0
 margin_top = 100.0
@@ -27,12 +39,22 @@ margin_right = 980.0
 margin_bottom = 350.0
 text = "num 2"
 
+[node name="Sprite" type="Sprite" parent="Panel/2_3"]
+position = Vector2( 125.263, 124.211 )
+scale = Vector2( 0.581899, 0.454752 )
+texture = ExtResource( 3 )
+
 [node name="3_3" type="Button" parent="Panel"]
 margin_left = 540.0
 margin_top = 180.0
 margin_right = 640.0
 margin_bottom = 280.0
 text = "opr"
+
+[node name="Sprite" type="Sprite" parent="Panel/3_3"]
+position = Vector2( 50.5263, 50 )
+scale = Vector2( 0.438596, 0.443275 )
+texture = ExtResource( 4 )
 
 [node name="Button" type="Button" parent="Panel"]
 margin_right = 200.0
@@ -46,9 +68,19 @@ margin_right = 490.0
 margin_bottom = 630.0
 text = "chs 1"
 
+[node name="Sprite" type="Sprite" parent="Panel/Button2"]
+position = Vector2( 85.2631, 85.2632 )
+scale = Vector2( 0.307177, 0.601504 )
+texture = ExtResource( 5 )
+
 [node name="Button3" type="Button" parent="Panel"]
 margin_left = 707.0
 margin_top = 460.0
 margin_right = 877.0
 margin_bottom = 630.0
 text = "chs 2"
+
+[node name="Sprite" type="Sprite" parent="Panel/Button3"]
+position = Vector2( 85.2631, 85.2631 )
+scale = Vector2( 0.131599, 0.298246 )
+texture = ExtResource( 6 )
