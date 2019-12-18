@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Pictures/apples/6.jpg" type="Texture" id=2]
-[ext_resource path="res://Pictures/indir.jpg" type="Texture" id=3]
+[ext_resource path="res://Pictures/summation.jpg" type="Texture" id=3]
 [ext_resource path="res://Pictures/apples/1.png" type="Texture" id=4]
 [ext_resource path="res://Pictures/apples/7.jpg" type="Texture" id=5]
 [ext_resource path="res://Pictures/apples/9.jpg" type="Texture" id=6]

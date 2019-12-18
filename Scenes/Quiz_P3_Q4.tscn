@@ -1,6 +1,13 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Pictures/Apples3/70.jpeg" type="Texture" id=2]
+[ext_resource path="res://Pictures/summation.jpg" type="Texture" id=3]
+[ext_resource path="res://Pictures/Apples3/20.jpeg" type="Texture" id=4]
+[ext_resource path="res://Pictures/Apples3/90.jpeg" type="Texture" id=5]
+[ext_resource path="res://Pictures/Apples3/50.jpeg" type="Texture" id=6]
+[ext_resource path="res://Pictures/Apples2/19.jpeg" type="Texture" id=7]
+[ext_resource path="res://Pictures/Apples2/12.jpeg" type="Texture" id=8]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -15,6 +22,11 @@ margin_top = 145.0
 margin_right = 450.0
 margin_bottom = 395.0
 
+[node name="Sprite" type="Sprite" parent="Panel/Button"]
+scale = Vector2( 0.236073, 0.463938 )
+texture = ExtResource( 2 )
+centered = false
+
 [node name="Button2" type="Button" parent="Panel"]
 margin_left = 579.002
 margin_top = 227.168
@@ -24,11 +36,21 @@ hint_tooltip = "Operation
 "
 text = "Operation"
 
+[node name="Sprite" type="Sprite" parent="Panel/Button2"]
+scale = Vector2( 0.536842, 0.536842 )
+texture = ExtResource( 3 )
+centered = false
+
 [node name="Button3" type="Button" parent="Panel"]
 margin_left = 830.0
 margin_top = 147.333
 margin_right = 1080.0
 margin_bottom = 397.333
+
+[node name="Sprite" type="Sprite" parent="Panel/Button3"]
+scale = Vector2( 0.459251, 0.887218 )
+texture = ExtResource( 4 )
+centered = false
 
 [node name="Button4" type="Button" parent="Panel"]
 margin_left = 200.0
@@ -37,6 +59,11 @@ margin_right = 430.0
 margin_bottom = 525.0
 text = "Option A"
 
+[node name="Sprite" type="Sprite" parent="Panel/Button4"]
+scale = Vector2( 0.17786, 0.197995 )
+texture = ExtResource( 5 )
+centered = false
+
 [node name="Button5" type="Button" parent="Panel"]
 margin_left = 850.0
 margin_top = 475.0
@@ -44,16 +71,31 @@ margin_right = 1080.0
 margin_bottom = 525.0
 text = "Option B"
 
+[node name="Sprite" type="Sprite" parent="Panel/Button5"]
+scale = Vector2( 0.179831, 0.402256 )
+texture = ExtResource( 6 )
+centered = false
+
 [node name="Button6" type="Button" parent="Panel"]
 margin_left = 200.0
-margin_top = 575.0
+margin_top = 600.0
 margin_right = 430.0
-margin_bottom = 625.0
+margin_bottom = 650.0
 text = "Option C"
+
+[node name="Sprite" type="Sprite" parent="Panel/Button6"]
+scale = Vector2( 0.420096, 0.379699 )
+texture = ExtResource( 7 )
+centered = false
 
 [node name="Button7" type="Button" parent="Panel"]
 margin_left = 850.0
-margin_top = 575.0
+margin_top = 600.0
 margin_right = 1080.0
-margin_bottom = 625.0
+margin_bottom = 650.0
 text = "Option D"
+
+[node name="Sprite" type="Sprite" parent="Panel/Button7"]
+scale = Vector2( 0.418182, 0.390977 )
+texture = ExtResource( 8 )
+centered = false

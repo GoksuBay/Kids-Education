@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/indir.jpg-1a1a2756d704bcd7bed5ed2105ca1ccf.stex"
+path="res://.import/summation.jpg-7615bb358ccd5b2bfe0a0d03e9e28099.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Pictures/indir.jpg"
-dest_files=[ "res://.import/indir.jpg-1a1a2756d704bcd7bed5ed2105ca1ccf.stex" ]
+source_file="res://Pictures/summation.jpg"
+dest_files=[ "res://.import/summation.jpg-7615bb358ccd5b2bfe0a0d03e9e28099.stex" ]
 
 [params]
 
