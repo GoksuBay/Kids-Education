@@ -1,6 +1,16 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Scenes/Panel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Pictures/apples/1.png" type="Texture" id=2]
+[ext_resource path="res://Pictures/apples/2.png" type="Texture" id=3]
+[ext_resource path="res://Pictures/apples/3.jpg" type="Texture" id=4]
+[ext_resource path="res://Pictures/apples/4.jpg" type="Texture" id=5]
+[ext_resource path="res://Pictures/apples/5.jpg" type="Texture" id=6]
+[ext_resource path="res://Pictures/apples/6.jpg" type="Texture" id=7]
+[ext_resource path="res://Pictures/apples/7.jpg" type="Texture" id=8]
+[ext_resource path="res://Pictures/apples/8.jpg" type="Texture" id=9]
+[ext_resource path="res://Pictures/apples/9.jpg" type="Texture" id=10]
+[ext_resource path="res://Pictures/apples/10.jpg" type="Texture" id=11]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -11,10 +21,15 @@ margin_top = -1.05261
 margin_bottom = 718.947
 
 [node name="1" type="Button" parent="Panel"]
-margin_left = 90.0
-margin_top = 150.0
-margin_right = 190.0
-margin_bottom = 250.0
+margin_left = 91.0526
+margin_top = 148.947
+margin_right = 191.053
+margin_bottom = 248.947
+
+[node name="Sprite" type="Sprite" parent="Panel/1"]
+scale = Vector2( 0.534626, 0.374753 )
+texture = ExtResource( 2 )
+centered = false
 
 [node name="2" type="Button" parent="Panel"]
 margin_left = 340.0
@@ -22,11 +37,22 @@ margin_top = 150.0
 margin_right = 440.0
 margin_bottom = 250.0
 
+[node name="Sprite" type="Sprite" parent="Panel/2"]
+position = Vector2( -3.05176e-005, -1.57896 )
+scale = Vector2( 0.45731, 0.452631 )
+texture = ExtResource( 3 )
+centered = false
+
 [node name="3" type="Button" parent="Panel"]
 margin_left = 590.0
 margin_top = 150.0
 margin_right = 690.0
 margin_bottom = 250.0
+
+[node name="Sprite" type="Sprite" parent="Panel/3"]
+scale = Vector2( 0.233118, 0.587565 )
+texture = ExtResource( 4 )
+centered = false
 
 [node name="4" type="Button" parent="Panel"]
 margin_left = 840.0
@@ -34,11 +60,21 @@ margin_top = 150.0
 margin_right = 940.0
 margin_bottom = 250.0
 
+[node name="Sprite" type="Sprite" parent="Panel/4"]
+scale = Vector2( 0.16129, 0.146847 )
+texture = ExtResource( 5 )
+centered = false
+
 [node name="5" type="Button" parent="Panel"]
 margin_left = 1090.0
 margin_top = 150.0
 margin_right = 1190.0
 margin_bottom = 250.0
+
+[node name="Sprite" type="Sprite" parent="Panel/5"]
+scale = Vector2( 0.390368, 0.522518 )
+texture = ExtResource( 6 )
+centered = false
 
 [node name="6" type="Button" parent="Panel"]
 margin_left = 90.0
@@ -46,11 +82,21 @@ margin_top = 470.0
 margin_right = 190.0
 margin_bottom = 570.0
 
+[node name="Sprite" type="Sprite" parent="Panel/6"]
+scale = Vector2( 0.113363, 0.0889053 )
+texture = ExtResource( 7 )
+centered = false
+
 [node name="7" type="Button" parent="Panel"]
 margin_left = 340.0
 margin_top = 470.0
 margin_right = 440.0
 margin_bottom = 570.0
+
+[node name="Sprite" type="Sprite" parent="Panel/7"]
+scale = Vector2( 0.1817, 0.284562 )
+texture = ExtResource( 8 )
+centered = false
 
 [node name="8" type="Button" parent="Panel"]
 margin_left = 590.0
@@ -58,11 +104,21 @@ margin_top = 470.0
 margin_right = 690.0
 margin_bottom = 570.0
 
+[node name="Sprite" type="Sprite" parent="Panel/8"]
+scale = Vector2( 0.17176, 0.280554 )
+texture = ExtResource( 9 )
+centered = false
+
 [node name="9" type="Button" parent="Panel"]
 margin_left = 840.0
 margin_top = 470.0
 margin_right = 940.0
 margin_bottom = 570.0
+
+[node name="Sprite" type="Sprite" parent="Panel/9"]
+scale = Vector2( 0.242417, 0.181876 )
+texture = ExtResource( 10 )
+centered = false
 
 [node name="10" type="Button" parent="Panel"]
 margin_left = 1090.0
@@ -70,26 +126,8 @@ margin_top = 470.0
 margin_right = 1190.0
 margin_bottom = 570.0
 
-[node name="Home" type="Button" parent="Panel"]
-margin_left = 90.0
-margin_top = 690.0
-margin_right = 190.0
-margin_bottom = 720.0
-
-[node name="Exit" type="Button" parent="Panel"]
-margin_left = 1232.0
-margin_top = 2.0
-margin_right = 1282.0
-margin_bottom = 52.0
-
-[node name="NextPage" type="Button" parent="Panel"]
-margin_left = 1180.0
-margin_top = 690.0
-margin_right = 1280.0
-margin_bottom = 720.0
-
-[node name="PreviousPage" type="Button" parent="Panel"]
-margin_left = 1070.0
-margin_top = 690.0
-margin_right = 1170.0
-margin_bottom = 720.0
+[node name="Sprite" type="Sprite" parent="Panel/10"]
+position = Vector2( 1.29199, -1.29224 )
+scale = Vector2( 0.175616, 0.181028 )
+texture = ExtResource( 11 )
+centered = false
